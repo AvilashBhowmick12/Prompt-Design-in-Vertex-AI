@@ -1,0 +1,16 @@
+2024-09-30 17:20:48,169 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2024-09-30 17:20:48,317 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'set']
+2024-09-30 17:20:48,320 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "compute/region", VALUE: "us-central1"]
+2024-09-30 17:20:48,433 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/57021046953-compute@developer.gserviceaccount.com/?recursive=true
+2024-09-30 17:20:48,436 DEBUG    urllib3.connectionpool Starting new HTTP connection (1): metadata.google.internal:80
+2024-09-30 17:20:48,437 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/57021046953-compute@developer.gserviceaccount.com/?recursive=true HTTP/1.1" 200 154
+2024-09-30 17:20:48,439 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/57021046953-compute@developer.gserviceaccount.com/token
+2024-09-30 17:20:48,441 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/57021046953-compute@developer.gserviceaccount.com/token HTTP/1.1" 200 868
+2024-09-30 17:20:48,631 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-09-30 17:20:48,857 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/qwiklabs-gcp-02-27016cb9acb0/regions/us-central1?alt=json HTTP/1.1" 200 None
+2024-09-30 17:20:48,865 WARNING  root            Property validation for compute/region was skipped.
+2024-09-30 17:20:48,867 INFO     ___FILE_ONLY___ Updated property [compute/region].
+
+2024-09-30 17:20:48,868 DEBUG    root            Chosen display Format:default
+2024-09-30 17:20:48,869 INFO     root            Display format: "default"
+2024-09-30 17:20:48,869 DEBUG    root            SDK update checks are disabled.

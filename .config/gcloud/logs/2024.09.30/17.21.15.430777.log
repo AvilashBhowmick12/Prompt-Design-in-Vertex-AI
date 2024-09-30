@@ -1,0 +1,10 @@
+2024-09-30 17:21:15,450 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2024-09-30 17:21:15,455 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2024-09-30 17:21:15,457 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--format: "value(projectNumber)", PROJECT_ID_OR_NUMBER: "qwiklabs-gcp-02-27016cb9acb0"]
+2024-09-30 17:21:15,493 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2024-09-30 17:21:15,578 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/qwiklabs-gcp-02-27016cb9acb0?alt=json HTTP/1.1" 200 None
+2024-09-30 17:21:15,580 DEBUG    root            Chosen display Format:default value(projectNumber)
+2024-09-30 17:21:15,581 INFO     root            Display format: "default value(projectNumber)"
+2024-09-30 17:21:15,597 INFO     ___FILE_ONLY___ 57021046953
+
+2024-09-30 17:21:15,597 DEBUG    root            SDK update checks are disabled.
